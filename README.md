@@ -1,13 +1,15 @@
-# Next.js Hello World
+# README
 
-This repo is forked from [nextjs/examples/hello-world](https://github.com/zeit/next.js/tree/canary/examples/hello-world).
+This is the [Express](https://expressjs.com) [Hello world](https://expressjs.com/en/starter/hello-world.html) example on [Render](https://render.com).
 
-This example shows the most basic idea behind Next. We have 2 pages: `pages/index.js` and `pages/about.js`. The former responds to `/` requests and the latter to `/about`. Using `next/link` you can add hyperlinks between them with universal routing capabilities. The `day` directory shows that you can have subdirectories.
+The app in this repo is deployed at [https://express.onrender.com](https://express.onrender.com).
 
-The app in this repo is deployed at https://next-js.onrender.com.
+## Deployment
 
-## Deploy
+See https://render.com/docs/deploy-node-express-app or follow the steps below:
 
-Click the button below to deploy this app on Render.
+Create a new web service with the following values:
+  * Build Command: `yarn`
+  * Start Command: `node app.js`
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy)
+That's it! Your web service will be live on your Render URL as soon as the build finishes.
